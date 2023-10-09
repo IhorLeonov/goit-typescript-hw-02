@@ -13,14 +13,18 @@ enum Day {
   Sunday,
 }
 
-const isWeekend = (day: Day): boolean => {
-  if (day === Day.Saturday || day === Day.Sunday) {
-    console.log("weekend");
-    return true;
-  } else {
-    console.log("workday");
-    return false;
-  }
+// const isWeekend = (day: Day): boolean => {
+//   if (day === Day.Saturday || day === Day.Sunday) {
+//     console.log("weekend");
+//     return true;
+//   } else {
+//     console.log("workday");
+//     return false;
+//   }
+// };
+
+const isWeekend = (day: Day) => {
+  return console.log(day === Day.Saturday || day === Day.Sunday);
 };
 
 // isWeekend(Day.Sunday); // weekend

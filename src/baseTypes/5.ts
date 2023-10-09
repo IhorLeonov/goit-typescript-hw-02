@@ -9,6 +9,6 @@ enum Toggle {
 }
 
 let union: string | number;
-let literal: Toggle;
+let literal: Toggle.disable;
 
-literal = Toggle.disable;
+// literal = Toggle.disable;
